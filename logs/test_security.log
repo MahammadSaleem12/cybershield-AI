@@ -1,0 +1,15 @@
+Jul 18 09:10:21 server sshd[1024]: Failed password for invalid user admin from 192.168.1.101 port 52344 ssh2
+Jul 18 09:10:35 server sshd[1024]: Failed password for root from 203.0.113.55 port 60231 ssh2
+Jul 18 09:11:10 server sshd[1024]: Accepted password for saleem from 192.168.1.25 port 50321 ssh2
+192.168.1.100 - - [18/Jul/2026:09:12:15 +0000] "GET /index.php?id=1' OR '1'='1 HTTP/1.1" 500 1024 "-" "Mozilla/5.0"
+192.168.1.101 - - [18/Jul/2026:09:12:35 +0000] "GET /search?q=<script>alert(1)</script> HTTP/1.1" 200 512 "-" "Mozilla/5.0"
+Jul 18 09:13:01 firewall: Port Scan detected from 198.51.100.20 targeting ports 22,80,443
+Jul 18 09:13:22 firewall: Blocked connection from 198.51.100.20 to port 22
+Jul 18 09:14:10 webserver: Nikto scan detected from 203.0.113.77
+Jul 18 09:14:35 ids: Hydra brute force attack detected from 198.51.100.44 against SSH service
+Jul 18 09:15:00 antivirus: Malware signature Trojan.Generic detected on host WIN-CLIENT01
+Jul 18 09:15:40 ids: Metasploit exploit attempt detected from 198.51.100.88 targeting SMB
+Jul 18 09:16:10 firewall: Multiple failed login attempts from 203.0.113.90
+Jul 18 09:16:40 apache: SQL Injection attempt blocked from 198.51.100.91
+Jul 18 09:17:15 apache: Cross Site Scripting (XSS) attempt blocked from 198.51.100.92
+Jul 18 09:18:01 sshd[2048]: Failed password for invalid user test from 203.0.113.100 port 40000 ssh2

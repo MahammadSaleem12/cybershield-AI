@@ -1,0 +1,100 @@
+2026-07-16 05:56:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: git Source Network Address: 203.0.113.45 Failure Reason: Unknown user name or bad password
+2026-07-17 06:19:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Ransom:Win32/WannaCrypt Path: C:\Users\bob\Downloads\invoice.exe Action: Quarantine
+2026-07-16 18:34:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: svcaccount Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-16 19:40:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 162.247.74.201 Destination Port Range: 1-1024
+2026-07-16 21:23:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 162.247.74.201 Failure Reason: Unknown user name or bad password
+2026-07-15 21:23:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 77.247.181.163 Failure Reason: Unknown user name or bad password
+2026-07-15 01:50:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: postgres Source Network Address: 77.247.181.163 Failure Reason: Unknown user name or bad password
+2026-07-15 00:14:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: admin Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-17 07:44:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 104.244.42.65 Destination Port Range: 1-1024
+2026-07-14 22:46:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: alice Source Network Address: 91.108.4.200 Failure Reason: Unknown user name or bad password
+2026-07-15 14:54:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: oracle Source Network Address: 162.247.74.201 Failure Reason: Unknown user name or bad password
+2026-07-14 10:29:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: alice Source Network Address: 77.247.181.163 Failure Reason: Unknown user name or bad password
+2026-07-15 08:28:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 162.247.74.201 Destination Port Range: 1-1024
+2026-07-15 01:56:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: test Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-14 16:20:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: postgres Source Network Address: 162.247.74.201 Failure Reason: Unknown user name or bad password
+2026-07-16 07:57:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Trojan:Win32/AgentTesla Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-16 16:39:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: bob Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-16 22:56:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-14 23:33:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: test Source Network Address: 185.220.101.7 Failure Reason: Unknown user name or bad password
+2026-07-15 21:06:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: bob Source Network Address: 10.0.0.12 Logon Type: 3
+2026-07-15 23:19:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: alice Source Network Address: 192.168.1.20 Logon Type: 3
+2026-07-15 17:01:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: test Source Network Address: 198.98.51.189 Failure Reason: Unknown user name or bad password
+2026-07-15 18:29:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 185.220.101.7 Destination Port Range: 1-1024
+2026-07-16 00:19:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-17 05:41:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: root Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-17 01:44:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-15 23:37:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 172.16.0.8 Logon Type: 3
+2026-07-15 03:24:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: alice Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-17 12:53:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-15 21:55:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 203.0.113.45 Destination Port Range: 1-1024
+2026-07-16 16:23:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: user1 Source Network Address: 198.98.51.189 Failure Reason: Unknown user name or bad password
+2026-07-16 20:38:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-17 16:26:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-16 10:33:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Users\bob\Downloads\invoice.exe Action: Quarantine
+2026-07-15 08:13:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-17 10:36:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 91.108.4.200 Destination Port Range: 1-1024
+2026-07-17 05:28:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: svcaccount Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-17 00:08:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: svcaccount Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-17 12:56:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 192.168.1.20 Logon Type: 3
+2026-07-15 03:46:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Trojan:Win32/AgentTesla Path: C:\Users\alice\AppData\Local\Temp\trojan.bin Action: Quarantine
+2026-07-17 03:07:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-15 04:34:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-17 08:34:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 172.16.0.8 Logon Type: 3
+2026-07-15 09:42:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 91.108.4.200 Destination Port Range: 1-1024
+2026-07-15 14:07:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: postgres Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-14 15:09:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: postgres Source Network Address: 185.220.101.7 Failure Reason: Unknown user name or bad password
+2026-07-17 12:14:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: alice Source Network Address: 172.16.0.8 Logon Type: 3
+2026-07-16 11:13:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 10.0.0.5 Logon Type: 3
+2026-07-16 15:40:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Users\bob\Downloads\invoice.exe Action: Quarantine
+2026-07-16 02:07:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: alice Source Network Address: 192.168.1.20 Logon Type: 3
+2026-07-16 02:34:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-16 02:41:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-16 05:05:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: test Source Network Address: 77.247.181.163 Failure Reason: Unknown user name or bad password
+2026-07-16 00:29:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-15 21:01:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: user1 Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-15 09:04:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-15 11:44:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: admin Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-15 04:19:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: oracle Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-16 01:39:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: bob Source Network Address: 198.98.51.189 Failure Reason: Unknown user name or bad password
+2026-07-17 16:32:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: postgres Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-17 13:17:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-16 01:49:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Users\alice\AppData\Local\Temp\trojan.bin Action: Quarantine
+2026-07-15 18:54:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: oracle Source Network Address: 77.247.181.163 Failure Reason: Unknown user name or bad password
+2026-07-14 07:17:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-17 05:32:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 91.108.4.200 Destination Port Range: 1-1024
+2026-07-17 15:57:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: alice Source Network Address: 10.0.0.5 Logon Type: 3
+2026-07-17 12:27:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 194.165.16.11 Failure Reason: Unknown user name or bad password
+2026-07-16 06:30:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 91.108.4.200 Destination Port Range: 1-1024
+2026-07-16 07:57:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: root Source Network Address: 194.165.16.11 Failure Reason: Unknown user name or bad password
+2026-07-17 04:46:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 45.33.32.156 Destination Port Range: 1-1024
+2026-07-17 15:53:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 10.0.0.12 Logon Type: 3
+2026-07-17 14:29:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 198.98.51.189 Destination Port Range: 1-1024
+2026-07-15 22:34:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: ubuntu Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-17 08:15:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: svcaccount Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-15 09:45:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: user1 Source Network Address: 194.165.16.11 Failure Reason: Unknown user name or bad password
+2026-07-15 06:03:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: deploy Source Network Address: 203.0.113.45 Failure Reason: Unknown user name or bad password
+2026-07-17 17:22:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Trojan:Win32/AgentTesla Path: C:\Users\bob\Downloads\invoice.exe Action: Quarantine
+2026-07-15 19:07:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 172.16.0.8 Logon Type: 3
+2026-07-15 18:48:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Backdoor:Win32/Poison Path: C:\Users\alice\AppData\Local\Temp\trojan.bin Action: Quarantine
+2026-07-15 22:28:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Ransom:Win32/WannaCrypt Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-17 00:19:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 192.168.1.20 Logon Type: 3
+2026-07-17 17:16:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-16 03:05:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: svcaccount Source Network Address: 162.247.74.201 Failure Reason: Unknown user name or bad password
+2026-07-17 02:04:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Worm:Win32/Conficker Path: C:\Windows\Temp\svchost32.exe Action: Quarantine
+2026-07-14 16:52:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: oracle Source Network Address: 162.247.74.201 Failure Reason: Unknown user name or bad password
+2026-07-14 23:16:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: test Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-16 15:51:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 185.220.101.7 Destination Port Range: 1-1024
+2026-07-17 11:00:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: user1 Source Network Address: 45.33.32.156 Failure Reason: Unknown user name or bad password
+2026-07-17 07:52:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: bob Source Network Address: 10.0.0.5 Logon Type: 3
+2026-07-15 19:40:31 WORKSTATION01 Microsoft-Windows-Defender[1116]: Malware detected. Threat Name: Trojan:Win32/AgentTesla Path: C:\Temp\payload.exe Action: Quarantine
+2026-07-16 05:59:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: bob Source Network Address: 172.16.0.8 Logon Type: 3
+2026-07-16 18:27:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 77.247.181.163 Destination Port Range: 1-1024
+2026-07-15 21:52:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 198.51.100.23 Destination Port Range: 1-1024
+2026-07-16 23:46:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: git Source Network Address: 198.51.100.23 Failure Reason: Unknown user name or bad password
+2026-07-16 20:47:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: user1 Source Network Address: 91.108.4.200 Failure Reason: Unknown user name or bad password
+2026-07-15 11:13:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: admin Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-17 07:11:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4672]: Special privileges assigned to new logon. Account Name: Administrator Privileges: SeDebugPrivilege SeTcbPrivilege
+2026-07-16 05:57:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4625]: An account failed to log on. Account Name: ubuntu Source Network Address: 104.244.42.65 Failure Reason: Unknown user name or bad password
+2026-07-16 12:21:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[4624]: An account was successfully logged on. Account Name: svcaccount Source Network Address: 10.0.0.5 Logon Type: 3
+2026-07-16 15:47:31 WORKSTATION01 Microsoft-Windows-Security-Auditing[5156]: Possible portscan detected. Source IP: 104.244.42.65 Destination Port Range: 1-1024

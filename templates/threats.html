@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-4">
+        <div>
+            <h4 class="mb-1">Threat Analysis</h4>
+            <p class="text-muted mb-0">Live incident stream and filtering for detected threats.</p>
+        </div>
+        <div class="d-flex flex-wrap gap-2 mt-3 mt-md-0">
+            <input id="filterIp" placeholder="Filter IP" class="form-control form-control-sm" style="width:180px">
+            <select id="filterSeverity" class="form-select form-select-sm" style="width:150px">
+                <option value="">All Severities</option>
+                <option>Critical</option>
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <button id="applyFilters" class="btn btn-sm btn-primary">Apply</button>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-dark table-hover" id="threatTable">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>IP</th>
+                    <th>Username</th>
+                    <th>Type</th>
+                    <th>Severity</th>
+                    <th>Recommendation</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script src="/static/js/threats.js"></script>
+{% endblock %}

@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row g-4">
+    <div class="col-lg-5">
+        <div class="card p-4">
+            <h4 class="mb-3">Account Settings</h4>
+            {% if message %}
+            <div class="alert alert-{{ message[1] }}">{{ message[0] }}</div>
+            {% endif %}
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label text-muted">Current Password</label>
+                    <input name="old_password" placeholder="Old password" class="form-control form-control-dark"
+                        type="password" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-muted">New Password</label>
+                    <input name="new_password" placeholder="New password" class="form-control form-control-dark"
+                        type="password" required>
+                </div>
+                <button class="btn btn-primary w-100">Update Password</button>
+            </form>
+        </div>
+        <div class="card p-4">
+            <h4 class="mb-3">Search Threats</h4>
+            <form method="get" action="{{ url_for('search') }}">
+                <div class="mb-3">
+                    <input name="type" placeholder="Type" class="form-control form-control-dark"
+                        value="{{ search_params.type if search_params is defined else '' }}">
+                </div>
+                <div class="mb-3">
+                    <input name="severity" placeholder="Severity" class="form-control form-control-dark"
+                        value="{{ search_params.severity if search_params is defined else '' }}">
+                </div>
+                <div class="mb-3">
+                    <input name="ip" placeholder="IP" class="form-control form-control-dark"
+                        value="{{ search_params.ip if search_params is defined else '' }}">
+                </div>
+                <button class="btn btn-secondary w-100">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-7">
+        <div class="card p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="mb-0">Recent Threats</h4>
+                <span class="badge bg-secondary">{{ recent|length if recent else 0 }}</span>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>When</th>
+                            <th>Severity</th>
+                            <th>Type</th>
+                            <th>IP</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for t in recent %}
+                        <tr>
+                            <td>{{ t['timestamp'] }}</td>
+                            <td>{{ t['severity'] }}</td>
+                            <td>{{ t['type'] }}</td>
+                            <td>{{ t['ip'] }}</td>
+                            <td>{{ t['filename'] or t['log_id'] }}</td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="5">No threats yet.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% if threats is defined %}
+        <div class="card p-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="mb-0">Search Results</h4>
+                <span class="badge bg-secondary">{{ threats|length if threats else 0 }}</span>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>When</th>
+                            <th>Severity</th>
+                            <th>Type</th>
+                            <th>IP</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for t in threats %}
+                        <tr>
+                            <td>{{ t['timestamp'] }}</td>
+                            <td>{{ t['severity'] }}</td>
+                            <td>{{ t['type'] }}</td>
+                            <td>{{ t['ip'] }}</td>
+                            <td>{{ t['filename'] }}</td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="5">No matching threats found.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

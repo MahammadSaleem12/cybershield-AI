@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-5 col-lg-4">
+        <div class="card p-4">
+            <div class="text-center mb-4">
+                <h2 class="mb-1">CyberShield AI</h2>
+                <p class="text-muted mb-0">SOC log analysis and threat detection.</p>
+            </div>
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label text-muted">Username</label>
+                    <input class="form-control form-control-dark" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-muted">Password</label>
+                    <input type="password" class="form-control form-control-dark" name="password" required>
+                </div>
+                <button class="btn btn-primary w-100">Sign In</button>
+            </form>
+            <p class="mt-3 text-muted small text-center mb-0">Default credentials: admin / adminpass</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

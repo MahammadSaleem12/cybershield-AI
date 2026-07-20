@@ -1,0 +1,60 @@
+﻿{% extends "base.html" %}
+{% block content %}
+<div class="row g-4">
+    <div class="col-lg-5">
+        <div class="card p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+                <div>
+                    <h4 class="mb-1">Upload Log File</h4>
+                    <p class="text-muted mb-0">Ingest new SOC logs for parsing and threat detection.</p>
+                </div>
+                <i class="bi bi-cloud-upload-fill fs-2 text-primary"></i>
+            </div>
+            <form method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <input type="file" name="logfile" class="form-control form-control-dark" accept=".log,.txt,.csv"
+                        required>
+                </div>
+                <button class="btn btn-primary w-100">Upload</button>
+            </form>
+            <a class="btn btn-sm btn-outline-light mt-3" href="{{ url_for('rescan_logs') }}">Rescan Existing Logs</a>
+        </div>
+    </div>
+    <div class="col-lg-7">
+        <div class="card p-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div>
+                    <h4 class="mb-1">Stored Logs</h4>
+                    <p class="text-muted mb-0">Track uploaded files and review parsed logs.</p>
+                </div>
+                <span class="badge bg-secondary align-self-start">{{ logs|length if logs else 0 }} files</span>
+            </div>
+            {% if logs is defined and logs %}
+            <div class="table-responsive">
+                <table class="table table-dark table-striped align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>Filename</th>
+                            <th>Uploaded</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for l in logs %}
+                        <tr>
+                            <td>{{ l['filename'] }}</td>
+                            <td>{{ l['uploaded_at'] }}</td>
+                            <td><a class="btn btn-sm btn-outline-primary"
+                                    href="{{ url_for('view_log', log_id=l['id']) }}">View</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="alert alert-secondary mb-0">No log files have been uploaded yet.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,128 @@
+Jul 11 01:00:01 server sshd[2001]: Failed password for invalid user admin from 203.0.113.10 port 50001 ssh2
+Jul 11 01:00:02 server sshd[2002]: Failed password for invalid user root from 203.0.113.11 port 50002 ssh2
+Jul 11 01:00:03 server sshd[2003]: Failed password for invalid user test from 203.0.113.12 port 50003 ssh2
+Jul 11 01:00:04 server sshd[2004]: Failed password for invalid user admin from 203.0.113.10 port 50004 ssh2
+Jul 11 01:00:05 server sshd[2005]: Failed password for invalid user admin from 203.0.113.10 port 50005 ssh2
+Jul 11 01:01:00 server sshd[2100]: Accepted password for alice from 198.51.100.50 port 52000 ssh2
+Jul 11 01:02:10 server sudo: pam_unix(sudo:session): session opened for user root by (uid=1001)
+Jul 11 01:03:00 server kernel: Possible portscan from 198.51.100.60
+Jul 11 01:04:00 server sshd[2101]: Invalid user guest from 198.51.100.61
+Jul 11 01:05:00 server sshd[2102]: Failed password for invalid user test from 198.51.100.62 port 53000 ssh2
+Jul 11 01:06:00 server webapp: "GET /index.php?id=1 UNION SELECT password FROM users-- HTTP/1.1" 200 452
+Jul 11 01:06:05 server webapp: "GET /search?q=%3Cscript%3Ealert(1)%3C%2Fscript%3E HTTP/1.1" 200 215
+Jul 11 01:06:30 server nikto: Nikto v2.1.5 scan started against /var/www/html
+Jul 11 01:07:00 server metasploit: Metasploit handler started for exploit/multi/handler
+Jul 11 01:07:30 server kernel: suspicious activity from 203.0.113.20
+Jul 11 01:08:00 server app: Detected possible SQL Injection "OR 1=1" in request from 198.51.100.70
+Jul 11 01:09:00 server app: XSS attempt detected: <script>alert(1)</script> from 198.51.100.71
+Jul 11 01:10:00 server antivirus: Malware signature trojan found in /tmp/uploaded.bin from 203.0.113.21
+Jul 11 01:11:00 server sshd[2200]: Failed password for invalid user admin from 203.0.113.22 port 54000 ssh2
+Jul 11 01:12:00 server sshd[2201]: Failed password for invalid user admin from 203.0.113.22 port 54001 ssh2
+Jul 11 01:13:00 server sshd[2202]: Failed password for invalid user admin from 203.0.113.22 port 54002 ssh2
+Jul 11 01:14:00 server sshd[2203]: Failed password for invalid user admin from 203.0.113.22 port 54003 ssh2
+Jul 11 01:15:00 server sshd[2204]: Failed password for invalid user admin from 203.0.113.22 port 54004 ssh2
+Jul 11 01:16:00 server sshd[2205]: Accepted password for bob from 198.51.100.80 port 55000 ssh2
+Jul 11 01:17:00 server sudo: user mary invoked sudo: /bin/ls
+Jul 11 01:18:00 server kernel: nmap scan detected from 203.0.113.30
+Jul 11 01:19:00 server httpd: "GET /wp-admin/ HTTP/1.1" 200 1234
+Jul 11 01:20:00 server webapp: "GET /product?id=2' OR '1'='1" 200 300
+Jul 11 01:21:00 server app: Possible SQL Injection pattern in query from 198.51.100.90
+Jul 11 01:22:00 server web: "GET /search?q=%3Cscript%3Efetch('http://evil')%3C/script%3E" 200 200
+Jul 11 01:23:00 server nikto: Nikto scan result: Interesting header found
+Jul 11 01:24:00 server metasploit: Handler running for reverse shell
+Jul 11 01:25:00 server sshd[2300]: Failed password for invalid user root from 198.51.100.95 port 56000 ssh2
+Jul 11 01:26:00 server sshd[2301]: Failed password for invalid user root from 198.51.100.95 port 56001 ssh2
+Jul 11 01:27:00 server sshd[2302]: Failed password for invalid user root from 198.51.100.95 port 56002 ssh2
+Jul 11 01:28:00 server sshd[2303]: Failed password for invalid user root from 198.51.100.95 port 56003 ssh2
+Jul 11 01:29:00 server sshd[2304]: Accepted password for carol from 198.51.100.95 port 56004 ssh2
+Jul 11 01:30:00 server app: hydra scan logged from 203.0.113.40
+Jul 11 01:31:00 server app: Possible privilege escalation: setuid detected
+Jul 11 01:32:00 server sshd[2400]: Failed password for invalid user ftp from 198.51.100.100 port 57000 ssh2
+Jul 11 01:33:00 server sshd[2401]: Failed password for invalid user ftp from 198.51.100.100 port 57001 ssh2
+Jul 11 01:34:00 server sshd[2402]: Failed password for invalid user ftp from 198.51.100.100 port 57002 ssh2
+Jul 11 01:35:00 server sshd[2403]: Failed password for invalid user ftp from 198.51.100.100 port 57003 ssh2
+Jul 11 01:36:00 server webapp: Suspicious request from 203.0.113.50 containing "<script>evil()</script>"
+Jul 11 01:37:00 server nikto: Nikto finished scan for /var/www
+Jul 11 01:38:00 server metasploit: exploit attempted against 198.51.100.120
+Jul 11 01:39:00 server antivirus: Trojan detected in attachment from 203.0.113.51
+Jul 11 01:40:00 server sshd[2500]: Failed password for invalid user admin from 203.0.113.60 port 58000 ssh2
+Jul 11 01:41:00 server sshd[2501]: Failed password for invalid user admin from 203.0.113.60 port 58001 ssh2
+Jul 11 01:42:00 server sshd[2502]: Failed password for invalid user admin from 203.0.113.60 port 58002 ssh2
+Jul 11 01:43:00 server sshd[2503]: Failed password for invalid user admin from 203.0.113.60 port 58003 ssh2
+Jul 11 01:44:00 server sshd[2504]: Accepted password for dave from 198.51.100.130 port 59000 ssh2
+Jul 11 01:45:00 server webapp: "GET /index.php?user=1%20UNION%20SELECT%20password%20FROM%20users-- HTTP/1.1" 200 455
+Jul 11 01:46:00 server app: XSS attempt: %3Cscript%3Ealert(1)%3C%2Fscript%3E
+Jul 11 01:47:00 server sshd[2600]: Failed password for invalid user guest from 203.0.113.70 port 60000 ssh2
+Jul 11 01:48:00 server sshd[2601]: Failed password for invalid user guest from 203.0.113.70 port 60001 ssh2
+Jul 11 01:49:00 server sshd[2602]: Failed password for invalid user guest from 203.0.113.70 port 60002 ssh2
+Jul 11 01:50:00 server kernel: Portscan detected from 203.0.113.80
+Jul 11 01:51:00 server web: "GET /?q='; DROP TABLE users; -- HTTP/1.1" 200 123
+Jul 11 01:52:00 server app: Metasploit payload delivered
+Jul 11 01:53:00 server sshd[2700]: Failed password for invalid user admin from 203.0.113.90 port 61000 ssh2
+Jul 11 01:54:00 server sshd[2701]: Failed password for invalid user admin from 203.0.113.90 port 61001 ssh2
+Jul 11 01:55:00 server sshd[2702]: Failed password for invalid user admin from 203.0.113.90 port 61002 ssh2
+Jul 11 01:56:00 server sshd[2703]: Failed password for invalid user admin from 203.0.113.90 port 61003 ssh2
+Jul 11 01:57:00 server sshd[2704]: Accepted password for erin from 198.51.100.140 port 62000 ssh2
+Jul 11 01:58:00 server app: Hydra brute force detected from 203.0.113.100
+Jul 11 01:59:00 server nikto: Nikto scan initiated from 203.0.113.110
+Jul 11 02:00:00 server metasploit: Metasploit tried exploit/multi/http
+Jul 11 02:01:00 server sshd[2800]: Failed password for invalid user test from 203.0.113.111 port 63000 ssh2
+Jul 11 02:02:00 server sshd[2801]: Failed password for invalid user test from 203.0.113.111 port 63001 ssh2
+Jul 11 02:03:00 server sshd[2802]: Failed password for invalid user test from 203.0.113.111 port 63002 ssh2
+Jul 11 02:04:00 server webapp: SQL Injection pattern found in POST /login from 198.51.100.150
+Jul 11 02:05:00 server webapp: XSS vector detected in referer header from 198.51.100.151
+Jul 11 02:06:00 server antivirus: Malware detected: worm in /var/www
+Jul 11 02:07:00 server sshd[2900]: Failed password for invalid user admin from 203.0.113.120 port 64000 ssh2
+Jul 11 02:08:00 server sshd[2901]: Failed password for invalid user admin from 203.0.113.120 port 64001 ssh2
+Jul 11 02:09:00 server sshd[2902]: Failed password for invalid user admin from 203.0.113.120 port 64002 ssh2
+Jul 11 02:10:00 server sshd[2903]: Failed password for invalid user admin from 203.0.113.120 port 64003 ssh2
+Jul 11 02:11:00 server kernel: Portscan detected from 198.51.100.160
+Jul 11 02:12:00 server webapp: "GET /search?q=%3Cscript%3Efetch('h')%3C%2Fscript%3E HTTP/1.1" 200 200
+Jul 11 02:13:00 server nikto: Nikto found outdated server header
+Jul 11 02:14:00 server metasploit: Meterpreter session opened for 198.51.100.170
+Jul 11 02:15:00 server sshd[3000]: Failed password for invalid user demo from 203.0.113.130 port 65000 ssh2
+Jul 11 02:16:00 server sshd[3001]: Failed password for invalid user demo from 203.0.113.130 port 65001 ssh2
+Jul 11 02:17:00 server sshd[3002]: Failed password for invalid user demo from 203.0.113.130 port 65002 ssh2
+Jul 11 02:18:00 server webapp: SQL injection attempt: UNION SELECT creditcard FROM payments
+Jul 11 02:19:00 server app: XSS attempt: <script>steal()</script>
+Jul 11 02:20:00 server antivirus: Malware signature detected in upload from 203.0.113.131
+Jul 11 02:21:00 server sshd[3100]: Failed password for invalid user john from 203.0.113.140 port 66000 ssh2
+Jul 11 02:22:00 server sshd[3101]: Failed password for invalid user john from 203.0.113.140 port 66001 ssh2
+Jul 11 02:23:00 server sshd[3102]: Accepted password for frank from 198.51.100.180 port 67000 ssh2
+Jul 11 02:24:00 server kernel: possible SYN scan from 203.0.113.141
+Jul 11 02:25:00 server webapp: "GET /?q=<script>alert(1)</script>" 200 210
+Jul 11 02:26:00 server nikto: scan detected many headers
+Jul 11 02:27:00 server metasploit: exploit attempt logged
+Jul 11 02:28:00 server sshd[3200]: Failed password for invalid user sam from 203.0.113.150 port 67001 ssh2
+Jul 11 02:29:00 server sshd[3201]: Failed password for invalid user sam from 203.0.113.150 port 67002 ssh2
+Jul 11 02:30:00 server sshd[3202]: Failed password for invalid user sam from 203.0.113.150 port 67003 ssh2
+Jul 11 02:31:00 server app: hydra login attempts observed from 203.0.113.151
+Jul 11 02:32:00 server sudo: session opened for user root by (uid=1002)
+Jul 11 02:33:00 server sshd[3300]: Invalid user admin from 203.0.113.152
+Jul 11 02:34:00 server webapp: GET /index.php?id=1 UNION SELECT username,password FROM users-- 200
+Jul 11 02:35:00 server antivirus: malwarefound in tmp file
+Jul 11 02:36:00 server metasploit: msfconsole spawned for exploit
+Jul 11 02:37:00 server httpd: suspicious request from 198.51.100.200
+Jul 11 02:38:00 server sshd[3400]: Failed password for invalid user root from 198.51.100.200 port 68000 ssh2
+Jul 11 02:39:00 server sshd[3401]: Failed password for invalid user root from 198.51.100.200 port 68001 ssh2
+Jul 11 02:40:00 server sshd[3402]: Failed password for invalid user root from 198.51.100.200 port 68002 ssh2
+Jul 11 02:41:00 server app: SQL Injection pattern found in /search from 198.51.100.201
+Jul 11 02:42:00 server webapp: XSS attempt in POST body
+Jul 11 02:43:00 server nikto: running checks on /admin
+Jul 11 02:44:00 server metasploit: session closed after exploit
+Jul 11 02:45:00 server sshd[3500]: Failed password for invalid user test from 203.0.113.160 port 69000 ssh2
+Jul 11 02:46:00 server sshd[3501]: Failed password for invalid user test from 203.0.113.160 port 69001 ssh2
+Jul 11 02:47:00 server sshd[3502]: Accepted password for george from 198.51.100.210 port 70000 ssh2
+Jul 11 02:48:00 server kernel: portscan detected from 203.0.113.170
+Jul 11 02:49:00 server webapp: "GET /?id=1' OR '1'='1" 200 404
+Jul 11 02:50:00 server app: Possible XSS vector detected
+Jul 11 02:51:00 server antivirus: trojan found in mail attachment
+Jul 11 02:52:00 server nikto: vulnerabilities enumerated
+Jul 11 02:53:00 server metasploit: payload upload attempt
+Jul 11 02:54:00 server sshd[3600]: Failed password for invalid user admin from 203.0.113.180 port 71000 ssh2
+Jul 11 02:55:00 server sshd[3601]: Failed password for invalid user admin from 203.0.113.180 port 71001 ssh2
+Jul 11 02:56:00 server sshd[3602]: Failed password for invalid user admin from 203.0.113.180 port 71002 ssh2
+Jul 11 02:57:00 server sshd[3603]: Failed password for invalid user admin from 203.0.113.180 port 71003 ssh2
+Jul 11 02:58:00 server webapp: SQLi attempt detected via UNION
+Jul 11 02:59:00 server app: Hydrascanner observed
+Jul 11 03:00:00 server metasploit: remote exploit attempt

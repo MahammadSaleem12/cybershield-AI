@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="card p-4 bg-dark">
+            <h6 class="text-uppercase text-muted mb-3">Risk Score</h6>
+            <p class="fs-2 mb-1">{{ summary.risk_score }}%</p>
+            <p class="muted mb-0">AI risk estimate based on current threat severity.</p>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card p-4 bg-dark">
+            <h6 class="text-uppercase text-muted mb-3">Frequent Attack</h6>
+            <p class="fs-2 mb-1">{{ summary.most_frequent_attack }}</p>
+            <p class="muted mb-0">Most common threat type in active logs.</p>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card p-4 bg-dark">
+            <h6 class="text-uppercase text-muted mb-3">Top IP</h6>
+            <p class="fs-2 mb-1">{{ summary.most_dangerous_ip }}</p>
+            <p class="muted mb-0">IP address with the most detected incidents.</p>
+        </div>
+    </div>
+</div>
+<div class="row g-4 mt-2">
+    <div class="col-lg-6">
+        <div class="card p-4">
+            <h4 class="mb-3">Top Threat Types</h4>
+            <ul>
+                {% for t in summary.top_types %}
+                <li>{{ t.type }} — {{ t.count }}</li>
+                {% else %}
+                <li>No data</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card p-4">
+            <h4 class="mb-3">Recommendations</h4>
+            <ol>
+                {% for r in summary.recommendations %}
+                <li>{{ r }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,5 @@
+Jul 10 12:00:01 server sshd[99]: Failed password for invalid user hacker from 5.6.7.8 port 9999 ssh2
+Jul 10 12:00:02 server sshd[99]: Failed password for invalid user hacker from 5.6.7.8 port 9999 ssh2
+Jul 10 12:00:03 server sshd[99]: Failed password for invalid user hacker from 5.6.7.8 port 9999 ssh2
+[10/Jul/2026:12:01:00 +0000] "GET /index.php?id=1 UNION SELECT password FROM users-- HTTP/1.1" 200 512
+[10/Jul/2026:12:02:00 +0000] Metasploit handler started for exploit/multi/handler

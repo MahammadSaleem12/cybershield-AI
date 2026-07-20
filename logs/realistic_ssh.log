@@ -1,0 +1,125 @@
+Jul 17 16:50:31 prod-server sshd[10046]: Failed password for invalid user alice from 185.220.101.7 port 48257 ssh2
+Jul 15 03:41:31 prod-server sshd[10015]: Failed password for invalid user user1 from 203.0.113.45 port 9204 ssh2
+Jul 15 14:36:31 prod-server sshd[10029]: Failed password for invalid user git from 203.0.113.45 port 61670 ssh2
+Jul 17 14:27:31 prod-server sshd[10100]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 17 00:55:31 prod-server sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Jul 17 14:23:31 prod-server sshd[10111]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 15 02:30:31 prod-server sshd[10045]: Failed password for invalid user user1 from 185.220.101.7 port 17500 ssh2
+Jul 16 21:32:31 prod-server sshd[10055]: Failed password for invalid user oracle from 185.220.101.7 port 50995 ssh2
+Jul 17 17:55:31 prod-server sshd[10110]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 16 16:29:31 prod-server sshd[10216]: Invalid user root from 91.108.4.200 port 64509
+Jul 15 17:54:31 prod-server sshd[10024]: Failed password for invalid user deploy from 203.0.113.45 port 44944 ssh2
+Jul 16 05:36:31 prod-server sshd[10105]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 15 20:05:31 prod-server sshd[10205]: Invalid user root from 198.51.100.23 port 13580
+Jul 14 20:50:31 prod-server sshd[10041]: Failed password for invalid user test from 185.220.101.7 port 6981 ssh2
+Jul 15 17:02:31 prod-server sshd[10018]: Failed password for invalid user bob from 203.0.113.45 port 13625 ssh2
+Jul 16 04:27:31 prod-server sshd[10022]: Failed password for invalid user test from 203.0.113.45 port 42684 ssh2
+Jul 16 07:05:31 prod-server sshd[10107]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 17 03:04:31 prod-server sshd[10108]: Accepted password for ubuntu from 10.0.0.5 port 2402 ssh2
+Jul 16 18:01:31 prod-server sshd[10052]: Failed password for invalid user user1 from 185.220.101.7 port 60833 ssh2
+Jul 17 13:02:31 prod-server sshd[10101]: Accepted password for alice from 10.0.0.5 port 32873 ssh2
+Jul 15 08:39:31 prod-server sshd[10215]: Invalid user oracle from 104.244.42.65 port 11168
+Jul 15 08:48:31 prod-server sshd[10207]: Invalid user test from 185.220.101.7 port 31342
+Jul 15 07:55:31 prod-server sshd[10039]: Failed password for invalid user bob from 203.0.113.45 port 27199 ssh2
+Jul 17 03:11:31 prod-server sshd[10049]: Failed password for invalid user git from 185.220.101.7 port 29516 ssh2
+Jul 17 14:47:31 prod-server sshd[10006]: Failed password for invalid user user1 from 203.0.113.45 port 14055 ssh2
+Jul 17 03:47:31 prod-server sshd[10114]: Accepted password for alice from 10.0.0.12 port 62333 ssh2
+Jul 17 16:19:31 prod-server sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Jul 16 05:57:31 prod-server sshd[10025]: Failed password for invalid user svcaccount from 203.0.113.45 port 62408 ssh2
+Jul 16 13:01:31 prod-server sshd[10011]: Failed password for invalid user oracle from 203.0.113.45 port 7722 ssh2
+Jul 17 13:02:31 prod-server sshd[10101]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 17 03:04:31 prod-server sshd[10108]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 16 05:59:31 prod-server sshd[10048]: Failed password for invalid user alice from 185.220.101.7 port 23317 ssh2
+Jul 17 11:59:31 prod-server sshd[10042]: Failed password for invalid user root from 185.220.101.7 port 11040 ssh2
+Jul 16 23:21:31 prod-server sshd[10037]: Failed password for invalid user deploy from 203.0.113.45 port 49847 ssh2
+Jul 15 16:36:31 prod-server sshd[10023]: Failed password for invalid user ubuntu from 203.0.113.45 port 25284 ssh2
+Jul 16 06:27:31 prod-server sshd[10051]: Failed password for invalid user user1 from 185.220.101.7 port 50959 ssh2
+Jul 15 10:17:31 prod-server sshd[10203]: Invalid user admin from 162.247.74.201 port 45153
+Jul 17 04:58:31 prod-server sshd[10204]: Invalid user oracle from 203.0.113.45 port 48748
+Jul 17 14:04:31 prod-server sshd[10004]: Failed password for invalid user admin from 203.0.113.45 port 7164 ssh2
+Jul 15 09:08:31 prod-server sshd[10007]: Failed password for invalid user deploy from 203.0.113.45 port 30463 ssh2
+Jul 15 23:35:31 prod-server sshd[10218]: Invalid user admin from 203.0.113.45 port 39308
+Jul 17 13:41:31 prod-server sshd[10102]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 15 18:40:31 prod-server kernel: Possible portscan from 45.33.32.156 detected on eth0
+Jul 14 22:15:31 prod-server sshd[10035]: Failed password for invalid user postgres from 203.0.113.45 port 59002 ssh2
+Jul 16 08:59:31 prod-server sshd[10028]: Failed password for invalid user ubuntu from 203.0.113.45 port 31318 ssh2
+Jul 16 13:12:31 prod-server kernel: Possible portscan from 198.51.100.23 detected on eth0
+Jul 17 14:27:31 prod-server sshd[10100]: Accepted password for alice from 10.0.0.12 port 63083 ssh2
+Jul 15 16:51:31 prod-server sshd[10059]: Failed password for invalid user git from 185.220.101.7 port 16716 ssh2
+Jul 17 02:10:31 prod-server sshd[10113]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 16 10:37:31 prod-server sshd[10021]: Failed password for invalid user root from 203.0.113.45 port 25935 ssh2
+Jul 17 03:12:31 prod-server sshd[10000]: Failed password for invalid user admin from 203.0.113.45 port 49622 ssh2
+Jul 16 23:21:31 prod-server sshd[10002]: Failed password for invalid user svcaccount from 203.0.113.45 port 7741 ssh2
+Jul 16 15:10:31 prod-server sshd[10106]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 17 05:10:31 prod-server sshd[10202]: Invalid user test from 77.247.181.163 port 28783
+Jul 15 00:41:31 prod-server sshd[10212]: Invalid user oracle from 45.33.32.156 port 60166
+Jul 16 01:14:31 prod-server kernel: Possible portscan from 198.98.51.189 detected on eth0
+Jul 17 06:32:31 prod-server sshd[10003]: Failed password for invalid user bob from 203.0.113.45 port 28675 ssh2
+Jul 14 21:06:31 prod-server sshd[10054]: Failed password for invalid user bob from 185.220.101.7 port 14059 ssh2
+Jul 16 08:18:31 prod-server sshd[10208]: Invalid user oracle from 198.51.100.23 port 53978
+Jul 17 18:20:31 prod-server sshd[10057]: Failed password for invalid user bob from 185.220.101.7 port 22267 ssh2
+Jul 17 03:47:31 prod-server sshd[10114]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 17 02:10:31 prod-server sshd[10113]: Accepted password for alice from 192.168.1.20 port 32836 ssh2
+Jul 17 14:02:31 prod-server sshd[10032]: Failed password for invalid user oracle from 203.0.113.45 port 27314 ssh2
+Jul 16 10:08:31 prod-server sshd[10211]: Invalid user oracle from 185.220.101.7 port 32850
+Jul 17 11:55:31 prod-server sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Jul 16 20:34:31 prod-server sshd[10043]: Failed password for invalid user alice from 185.220.101.7 port 28690 ssh2
+Jul 17 15:31:31 prod-server sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Jul 16 00:08:31 prod-server kernel: Possible portscan from 198.51.100.23 detected on eth0
+Jul 15 23:27:31 prod-server sshd[10034]: Failed password for invalid user deploy from 203.0.113.45 port 43978 ssh2
+Jul 17 08:55:31 prod-server sshd[10019]: Failed password for invalid user admin from 203.0.113.45 port 44360 ssh2
+Jul 17 15:55:31 prod-server sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Jul 16 06:18:31 prod-server sshd[10014]: Failed password for invalid user admin from 203.0.113.45 port 48847 ssh2
+Jul 14 12:27:31 prod-server sshd[10200]: Invalid user oracle from 198.98.51.189 port 16949
+Jul 16 02:23:31 prod-server sshd[10017]: Failed password for invalid user alice from 203.0.113.45 port 41559 ssh2
+Jul 15 17:24:31 prod-server sshd[10013]: Failed password for invalid user oracle from 203.0.113.45 port 40589 ssh2
+Jul 17 17:55:31 prod-server sshd[10110]: Accepted password for alice from 10.0.0.5 port 42383 ssh2
+Jul 16 05:36:31 prod-server sshd[10105]: Accepted password for alice from 10.0.0.12 port 21452 ssh2
+Jul 14 15:16:31 prod-server sshd[10209]: Invalid user admin from 198.51.100.23 port 43762
+Jul 16 09:58:31 prod-server sshd[10103]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jul 16 02:15:31 prod-server sshd[10109]: Accepted password for alice from 10.0.0.12 port 15456 ssh2
+Jul 15 13:06:31 prod-server sshd[10214]: Invalid user oracle from 91.108.4.200 port 19718
+Jul 16 01:00:31 prod-server sshd[10104]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 16 20:21:31 prod-server sshd[10056]: Failed password for invalid user user1 from 185.220.101.7 port 63512 ssh2
+Jul 16 11:18:31 prod-server sshd[10020]: Failed password for invalid user git from 203.0.113.45 port 6253 ssh2
+Jul 15 03:46:31 prod-server sshd[10036]: Failed password for invalid user ubuntu from 203.0.113.45 port 18383 ssh2
+Jul 17 02:46:31 prod-server sshd[10047]: Failed password for invalid user alice from 185.220.101.7 port 59009 ssh2
+Jul 17 10:46:31 prod-server sshd[10031]: Failed password for invalid user deploy from 203.0.113.45 port 54881 ssh2
+Jul 16 04:26:31 prod-server sshd[10008]: Failed password for invalid user admin from 203.0.113.45 port 50753 ssh2
+Jul 17 09:44:31 prod-server sshd[10044]: Failed password for invalid user postgres from 185.220.101.7 port 26033 ssh2
+Jul 17 10:25:31 prod-server sshd[10217]: Invalid user pi from 198.98.51.189 port 5018
+Jul 15 01:19:31 prod-server sshd[10219]: Invalid user pi from 104.244.42.65 port 11341
+Jul 17 13:41:31 prod-server sshd[10102]: Accepted password for deploy from 10.0.0.12 port 44261 ssh2
+Jul 16 19:03:31 prod-server sshd[10027]: Failed password for invalid user user1 from 203.0.113.45 port 48808 ssh2
+Jul 16 01:00:31 prod-server sshd[10104]: Accepted password for deploy from 172.16.0.8 port 61901 ssh2
+Jul 14 16:36:31 prod-server sshd[10210]: Invalid user admin from 203.0.113.45 port 61734
+Jul 17 05:45:31 prod-server sshd[10012]: Failed password for invalid user postgres from 203.0.113.45 port 7362 ssh2
+Jul 17 15:55:31 prod-server sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Jul 16 01:52:31 prod-server kernel: Possible portscan from 45.33.32.156 detected on eth0
+Jul 17 10:24:31 prod-server sshd[10213]: Invalid user oracle from 185.220.101.7 port 1165
+Jul 16 04:51:31 prod-server sshd[10001]: Failed password for invalid user deploy from 203.0.113.45 port 15652 ssh2
+Jul 16 20:37:31 prod-server sshd[10009]: Failed password for invalid user svcaccount from 203.0.113.45 port 28720 ssh2
+Jul 16 16:26:31 prod-server sshd[10206]: Invalid user oracle from 104.244.42.65 port 10210
+Jul 17 16:19:31 prod-server sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Jul 14 23:42:31 prod-server sshd[10058]: Failed password for invalid user admin from 185.220.101.7 port 8355 ssh2
+Jul 16 06:32:31 prod-server sshd[10038]: Failed password for invalid user svcaccount from 203.0.113.45 port 39335 ssh2
+Jul 17 14:23:31 prod-server sshd[10111]: Accepted password for deploy from 10.0.0.12 port 60361 ssh2
+Jul 17 00:55:31 prod-server sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Jul 15 14:44:31 prod-server sshd[10016]: Failed password for invalid user root from 203.0.113.45 port 37202 ssh2
+Jul 16 20:49:31 prod-server sshd[10050]: Failed password for invalid user test from 185.220.101.7 port 1236 ssh2
+Jul 17 15:31:31 prod-server sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1000)
+Jul 16 12:25:31 prod-server sshd[10030]: Failed password for invalid user alice from 203.0.113.45 port 22276 ssh2
+Jul 17 11:55:31 prod-server sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Jul 15 01:50:31 prod-server sshd[10201]: Invalid user root from 77.247.181.163 port 7205
+Jul 17 16:16:31 prod-server sshd[10112]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 17 08:40:31 prod-server sshd[10026]: Failed password for invalid user bob from 203.0.113.45 port 42637 ssh2
+Jul 16 05:51:31 prod-server sshd[10033]: Failed password for invalid user root from 203.0.113.45 port 14850 ssh2
+Jul 15 16:59:31 prod-server sshd[10040]: Failed password for invalid user deploy from 185.220.101.7 port 10089 ssh2
+Jul 16 09:58:31 prod-server sshd[10103]: Accepted password for ubuntu from 10.0.0.12 port 35605 ssh2
+Jul 16 15:10:31 prod-server sshd[10106]: Accepted password for ubuntu from 192.168.1.20 port 59981 ssh2
+Jul 16 07:05:31 prod-server sshd[10107]: Accepted password for deploy from 172.16.0.8 port 17270 ssh2
+Jul 17 16:16:31 prod-server sshd[10112]: Accepted password for deploy from 192.168.1.20 port 34719 ssh2
+Jul 17 03:53:31 prod-server sshd[10053]: Failed password for invalid user alice from 185.220.101.7 port 20582 ssh2
+Jul 15 19:57:31 prod-server sshd[10010]: Failed password for invalid user git from 203.0.113.45 port 11213 ssh2
+Jul 16 02:15:31 prod-server sshd[10109]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Jul 16 12:33:31 prod-server sshd[10005]: Failed password for invalid user deploy from 203.0.113.45 port 34142 ssh2
